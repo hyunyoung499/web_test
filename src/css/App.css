@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f8f8f8;
+}
+
+.container {
+  width: 430%;
+  height: 360%;
+  max-width: 100%;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+  .red {
+    background-color: #f05a28;
+    color: #fff;
+    font-size: 1.2em;
+    padding: 15px;
+    border-radius: 5px;
+    width: 70px;
+    text-align: center;
+    white-space: nowrap;
+    margin-bottom: 20px;
+  }
+
+.section-header {
+  background-color: #b0b0b0;
+  color: #fff;
+  padding: 10px;
+  display: inline-block;
+  font-size: 1.1em;
+  text-align: center;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.top-destinations {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.destination-card {
+  background-color: #e0e0e0;
+  width: 40%;
+  height: 30%;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 15px 10px;
+}
+
+.rank {
+  font-size: 1.2em;
+  text-align: center;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.description {
+  background-color: #d0d0d0;
+  width: 100%;
+  text-align: center;
+  padding: 5px;
+  border-radius: 3px;
+  color: #555;
+}
